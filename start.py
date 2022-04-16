@@ -21,10 +21,7 @@ print(f'''
 {Fore.LIGHTRED_EX}[3]{Fore.LIGHTYELLOW_EX} RUSSIAN
 {Fore.LIGHTRED_EX}[4]{Fore.LIGHTYELLOW_EX} GERMAN
 {Fore.LIGHTRED_EX}[5]{Fore.LIGHTYELLOW_EX} PORTUGUESE
-{Fore.LIGHTRED_EX}[6]{Fore.LIGHTYELLOW_EX} FRENCH
-{Fore.LIGHTRED_EX}[7]{Fore.LIGHTYELLOW_EX} INDIAN
-{Fore.LIGHTRED_EX}[8]{Fore.LIGHTYELLOW_EX} SPANISH
-{Fore.LIGHTRED_EX}[9]{Fore.LIGHTYELLOW_EX} JAPANESE
+{Fore.LIGHTRED_EX}[6]{Fore.LIGHTYELLOW_EX} JAPANESE
 ''')
 
 choice = input(Fore.GREEN+"option => ")
@@ -50,7 +47,7 @@ if choice == "5":
     message = input("Message => ")
     url = "https://front35.omegle.com/start?caps=recaptcha2,t&firstevents=1&spid=&randid=PL83WE8G&lang=pt"
 #JAPANESE
-if choice == "9":
+if choice == "6":
     message = input("Message => ")
     url = "https://front35.omegle.com/start?caps=recaptcha2,t&firstevents=1&spid=&randid=PL83WE8G&lang=ja"
 
