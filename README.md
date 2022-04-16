@@ -1,1 +1,1 @@
-# omegle-bot
+# OMEGLE BOT FOR ADVERTISING
