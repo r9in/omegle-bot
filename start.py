@@ -90,10 +90,10 @@ while True:
         else:
             print("failed to disconnect")
 
-    def getid():
+    def id():
         shard = response["clientID"]
         if shard.startswith("central"):
             dataa = {'id': shard}
             rrr = requests.post("https://front8.omegle.com/events", data=dataa)
             omegle(shard)
-    getid()
+    id()
